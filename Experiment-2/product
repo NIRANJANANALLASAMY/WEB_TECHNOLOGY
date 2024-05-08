@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>www.preethi.in</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width:device-width;initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyIOXMl9k6j7e92z2VrCU2S1UEM99aIex8" crossorigin="anonymous">
+    <style>
+            /* Make the image fully responsive */
+            .carousel-inner img 
+            {
+              width: 100%;
+              height: 100%;
+            }
+            .carousel-details
+            {
+              font-size:50px;
+
+            }
+            .contact-details1{
+              font-size: large;
+            }
+            .contact-details2{
+              font-size: large;
+              text-align: center;
+            }
+            .abt{
+              font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              text-align: center;
+              float:inline-start;
+            }
+            .card {
+               transition: transform 0.3s;
+             }
+             .card:hover {
+                transform: translateY(-5px);
+    }
+            </style>
+</head>
+<body> 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Preethi Appliances</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" target="_blank">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="product.html" target="_blank">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="service.html" target="_blank">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html" target="_blank">About</a>
+        </li>
+      </ul>
+    </div>
+   </nav>   
+       <div id="demo" class="carousel slide" data-ride="carousel">    
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="pre1.jpg" alt="Los Angeles" width="900" height="300">
+      </div>
+      <div class="carousel-item">
+        <img src="pre2.jpg" alt="Chicago" width="900" height="300">
+      </div>
+      <div class="carousel-item">
+        <img src="pre4.jpg" alt="New York" width="900" height="300">
+      </div>
+      <div class="carousel-item">
+        <img src="pre5.jpg" alt="New Yorkk" width="900" height="300">
+      </div>
+
+    </div>
+    
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  <div id="About" class="container section">
+    <h2>About Us</h2>
+    <p class="abt">Cook up endless possibilities in your kitchen with our cutting-edge appliances. From sleek designs to unmatched performance, we are here to turn your culinary dreams into reality. Elevate your cooking experience with us and savor every moment in the heart of your home.</p>
+    <img src="preabt.jpg" width="100%" height="100%">
+    <img src="preabt2.jpg" width="100%" height="100%">
+    <img src="preabt3.jpg" width="100%" height="100%">
+  </div>
+
+
+
+
+  <div id="Contact" class="container section">
+    <h2>Contact Us</h2>
+    <h3>Address</h3>
+    <p class="contact-details1">Phillips Domestic Appliances India Ltd.,<br> Futura Tech Park, Q2, 4th Floor, Block 2, #334, Rajiv Gandhi Salai,<br> Sholinganallur,<br> Chennai- 600 119</p>
+    <p class="contact-details2">Contact: preethiappliance@gmail.com <br> Phone: 044-14598971</p>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      </body>
+</html>
